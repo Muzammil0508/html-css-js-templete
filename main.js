@@ -24,22 +24,7 @@ function errorMessage() {
         errorElement.textContent = "";
       }
     }
-      // if (!hasError) {
-      // //   window.location.href = "error.html";
-      // // showModal();
-      // }
   }
-  
-  // let number1 = document.getElementById("number").value;
-//   function validateNumber(value) { console.log( typeof value)
-//     if(value === ""){
-//       return "Field cannot be empty"
-//     }
-//     if (value.length !== 10 ) {
-//       return "number should be of 10 digit";
-//     }
-//     return "";
-//   }
   
   function validateText(value) {
     if (value === "") {
@@ -78,21 +63,6 @@ function errorMessage() {
           // clearForm.clear();
       }
   }
-  
-  // function openModal(event) {
-  //   event.preventDefault();
-  
-  //   // Perform form validation
-  //   let hasError = errorMessage();
-    
-  //   if (!hasError) {
-  //       showModal();
-  //       document.getElementById("myForm").reset();
-  //   }
-  // }
-  
-  
-  // document.addEventListener('submit', openModal);
   document.getElementById("myForm").addEventListener('submit', openModal);
   
   
