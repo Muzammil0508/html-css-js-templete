@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: vardana,sans-serif;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+/* styles.css */
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+a.project,a.about,a.contact {
+    color:#000000;
+}
+
+.head-main {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-inline: 2rem;
+    justify-content: space-between;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+    
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+
+button.btn {
+    text-decoration: none;
+    letter-spacing: 5px;
+    font-size: 15px;
+    color: #000000;
+    background-color:white;
+    border: none;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button.btn:hover {
+    color: #000 !important;
+    background-color: #ccc !important;
+}
+
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+
+
+.section-1{
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+    height: 100vh;
+    display: flex;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+    margin-bottom: 50px;
+    }
+
+.cont-1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 36px;
+    font-family: 'Segoe UI', arial, sans-serif;
+}
+b.box{
+    background-color: #000000;
+    color: #fff;
+    opacity: 0.75;
+    padding: 8px 16px !important;
+}
+.head-1 {
+    font-size: 24px;
+    font-family: 'Segoe UI', arial, sans-serif;
+}
+hr.solid{
+    border-bottom: 0.5px solid lightgray;
+    margin: 20px;
+}
+span.Projects,span.about,span.contact {
+    padding-left: 20px;
+}
+.img-1{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+    width: 90%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+.img-3{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-4{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-5{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-6{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-7{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.img-8{
+    width: 90%;
+    height: 200px;
+    background-image: url(https://www.w3schools.com/w3images/house3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    row-gap: 1.5rem;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);    
+    font-size: 20px;
+    
+    
+  }
+  span.text {
+    padding: 0 10px;
+}
+.new {
+    height: 2rem;
+    background-color: #000;
+    color: #fff;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.section-2, .section-3{
+    padding: 65px 0;
+}
+.head-2,.head-3 {
+    font-size: 24px;
+    font-family: 'Segoe UI', arial, sans-serif;
+}
+p.para-3 {
+    font-size: 15px;
+    margin: 15px;
+    font-family: vardana,sans-serif;
+    line-height: 1.5;
+    color: #000000;
+    letter-spacing: 1px;
+}
+.image-1,.image-2,.image-3,.image-4 {
+    width: 300px;
+    
+}
+.grid-container-2 {
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%;
+    row-gap: 1.5rem;
+    padding: 10px;
+  }
+h3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+}
+p.para {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    opacity: 0.60;
+    font-size: 15px;
+    font-family: vardana,sans-serif;
+    line-height: 1.5;
+}
+.para-2{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* opacity: 0.60; */
+    font-size: 15px;
+    font-family: vardana,sans-serif;
+    line-height: 1.5;
+}
+button.btn-1{
+    background-color: #f1f1f1 !important;
+    color: #000000 !important;
+    width: 300px;
+    display: block;
+    padding: 13px 16px;
+    border: none;
+}
+button.btn-1:hover{
+    background-color: #ccc !important;
+}
+
+.form{
+    margin-left: 15px;
+    display: block;
+}
+input[type="text"] {
+    width: 98%;
+    padding: 13px;
+    margin-bottom: 10px;
+}
+button.btn-2{
+    font-size: 15px;
+    font-family: vardana,sans-serif;
+    color: #fff;
+    background-color: #000000;
+    margin: 16px 16px;
+    padding: 13px 16px;
+    border: none;
+
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+.modal-content {
+    /* background-color: #fefefe; */
+    background-position: center;
+    background-image: url(https://www.shutterstock.com/image-photo/modern-computerlaptop-blank-screen-on-260nw-649727860.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    height: 60%;
+    border-radius: 10px;
+  }
+  .heading-1{
+    color: black;
+    text-align: center;
+    margin-top: 150px;
+  }
+  .para-1{
+    color: black;
+    /* font-size: 30px; */
+    text-align: center;
+    margin-top: 20px; 
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  .form-field {
+    margin-bottom: 15px;
+}
+.section-4{
+    padding: 0px 30px 0px 30px;
+    margin-bottom: 10px;
+}
+.image-5{
+    width: 100%;
+    height: auto;
+}
+.footer-para{
+    text-align: center;
+    color: #fff;
+}
+footer{
+    background-color: #000000;
+    padding: 35px;
+}
+
+@media (width <=768px){
+    .grid-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 1.5rem;
+        padding: 10px;
+    }
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);    
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    p.para-3 {
+        font-size: 12px;
+        margin: 15px;
+        font-family: vardana,sans-serif;
+        line-height: 1.5;
+        color: #000000;
+        width: 97%;
+        letter-spacing: 1px;
+    }
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 1.5rem;
+        padding: 10px;
+    }
+    .modal-content {
+        background-position: center;
+        /* background-color: #fefefe; */
+        background-position: center;
+        background-image: url(  );
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%;
+        height: 60%;
+        border-radius: 10px;
+    }
+    
+}
+
+@media (width <=425px){
+    .section-1 {
+        background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+        height: 80vh;
+        display: flex;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+        color: #f1f1f1;
+        margin-bottom: 50px;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 1.5rem;
+        padding: 10px;
+        margin: 0px 20px;
+    }
+    span.architects {
+        display: none;
+    }
+    .grid-container-2 {
+        display: grid;
+        grid-template-columns: 100%;
+        row-gap: 1.5rem;
+        padding: 10px;
+        margin: 0px 40px;
+    }
+    .modal-content {
+        background-position: center;
+        /* background-color: #fefefe; */
+        background-position: center;
+        background-image: url(https://www.shutterstock.com/image-vector/3d-high-quality-vector-mobile-600nw-2121419597.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 50%;
+        height: 60%;
+        border-radius: 10px;
+    }
+    .heading-1 {
+        color: black;
+        text-align: center;
+        margin-top: 110px;
+        font-size: 18px;
+    }
+    .para-1 {
+        color: black;
+        font-size: 12px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 768px) {
+    nav {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: white;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+
+    nav.active {
+        display: flex;
+    }
+}
